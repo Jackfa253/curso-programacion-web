@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+button  {border-radius: 10px;
+}
+.form-control{
+border-radius: 20px;
+}
+
+#contacto {
+    background-image: url(..//images/fondo-contacto.png);
+    background-size: cover;
+}
+
+nav a{
+    color: #282828;
+}
+
+nav .active{
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+.btn-rojo {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding:5px 20px;
+    
+}
+
+.btn-rojo:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+}
+
+textarea{
+    height: 150px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px;
+    padding:5px 20px
+}
+
+.btn-blanco:hover {
+    background-color: #370a6d;
+    color:white ;
+}
+
+footer i{
+    font-size: 40px;
+    
+}
+
+#contacto footer,#contacto footer a{
+    color: white;
+    font-weight: 100;
+} 
+
+
+#contacto .fa-linkedin{
+    color: white;
+}
+
+#contacto .fa-github{
+    color:white;
+}
+
+#contacto .fa-whatsapp{
+    position: fixed;
+    right: 128px;
+    bottom: 0px;
+    font-size: 50px;
+    background-color: #370a6d;
+     border-top-right-radius: 10px ;
+     border-top-left-radius: 10px;
+}
