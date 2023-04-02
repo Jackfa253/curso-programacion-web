@@ -12,10 +12,7 @@ border-radius: 20px;
     background-size: cover;
 }
 
-#proyectos {
-    background-image: url(..//images/fondo-proyectos.png);
-    background-size: cover;
-}
+
 
 nav a{
     color: #282828;
@@ -88,7 +85,23 @@ footer i{
     color:white;
 }
 
-#contacto .fa-whatsapp{
+/*                          PROYECTOS                     */
+
+
+#proyectos {
+    background-image: url(..//images/fondo-proyectos.png);
+    background-size: cover;
+}
+
+#proyectos img {
+    height: 210px;
+}
+
+.textos{
+height: 200px;
+}
+
+#contacto .fa-whatsapp,#proyectos .fa-whatsapp{
     position: fixed;
     right: 128px;
     bottom: 0px;
@@ -96,4 +109,11 @@ footer i{
     background-color: #370a6d;
      border-top-right-radius: 10px ;
      border-top-left-radius: 10px;
+     color: white;
 }
+
+.git-link a,.git-link p, .codigo-fuente a{
+    color: red;
+    font-weight: 100;
+} 
+
