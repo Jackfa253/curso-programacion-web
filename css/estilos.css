@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*            CONTACTO            */
 
 button  {border-radius: 10px;
 }
@@ -101,18 +102,44 @@ footer i{
 height: 200px;
 }
 
-#contacto .fa-whatsapp,#proyectos .fa-whatsapp{
-    position: fixed;
-    right: 128px;
-    bottom: 0px;
-    font-size: 50px;
-    background-color: #370a6d;
-     border-top-right-radius: 10px ;
-     border-top-left-radius: 10px;
-     color: white;
-}
-
 .git-link a,.git-link p, .codigo-fuente a{
     color: red;
     font-weight: 100;
 } 
+
+.codigo-fuente a{
+    font-size: 16px;
+}
+
+.proyectos h2{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    height: 50px;   
+    background: rgb(162,9,39);
+    background: linear-gradient(90deg, rgba(162,9,39,1) 0%, rgba(207,8,44,1) 35%);      
+}
+
+.tarjeta{
+    border:1px solid #eee;
+}
+
+
+#contacto .fa-whatsapp,#proyectos .fa-whatsapp{
+    position: fixed;
+    right: 57px;
+    bottom: 0px;
+    font-size: 35px;
+    background-color: #370a6d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+}
+
+/*                    INICIO                  */                    
+              
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png)
+    background-size: cover;
+}
