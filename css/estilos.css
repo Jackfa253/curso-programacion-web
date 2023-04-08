@@ -2,6 +2,8 @@
 
 /*            CONTACTO            */
 
+
+
 button  {border-radius: 10px;
 }
 .form-control{
@@ -125,7 +127,7 @@ height: 200px;
 }
 
 
-#contacto .fa-whatsapp,#proyectos .fa-whatsapp{
+#contacto .fa-whatsapp,#proyectos .fa-whatsapp,#inicio .fa-whatsapp, #sobre-mi .fa-whatsapp{
     position: fixed;
     right: 57px;
     bottom: 0px;
@@ -138,8 +140,58 @@ height: 200px;
 
 /*                    INICIO                  */                    
               
-
 #inicio {
-    background-image: url(../images/fondo-contacto.png)
+    background-image: url(..//images/fondo-contacto.png);
     background-size: cover;
+    
+}
+
+.cohete img {
+    height: 400px;
+}
+
+.bienvenida p{
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.git-link a{
+    color: white;
+}
+
+/*                  SOBRE MI                 */
+
+.jackfa img{
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 100px;
+}
+
+#stack{
+    background-image:linear-gradient(90deg, rgba(162,9,39,1) 0%, rgba(207,8,44,1) 35%); ;
+}
+
+.stack-tecnologico{
+    color: white;
+    font-size: 25px;
+}
+
+.imagenes img{
+    width: 100px;
+}
+
+.imagenes-div{
+    background-color: white;
+}
+
+.git-link a{
+    color: red;
+}
+
+.alb img{
+    width: 200px;
 }
