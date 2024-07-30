@@ -1,2 +1,2 @@
 # portafolio
-Este un proyecto incompleto de un curso
+Este un proyecto incompleto
