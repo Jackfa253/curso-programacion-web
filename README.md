@@ -23,7 +23,7 @@ El objetivo del proyecto fue construir un sitio web multipágina (HTML, CSS, PHP
 ## Tecnologías utilizadas  
 - HTML5 para la estructura semántica.  
 - CSS3 para estilos personalizados y diseño responsivo básico.  
-- PHP (uso del archivo `header.php`) para reutilización de componentes comunes en distintas páginas.  
+- PHP
 - Bootstrap 5.
 
 ---
@@ -38,6 +38,6 @@ Con este proyecto buscaba:
 ---
 
 ## Estado actual del proyecto  
-⚠️ Proyecto en sin continuación.
+Proyecto descontinuado.
 
 
